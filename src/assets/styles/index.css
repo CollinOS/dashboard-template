@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  /* @font-face {
+    font-family: "mulish";
+    src: url("../fonts/Mulish-Regular.ttf") format("ttf"),
+  } */
+
+  body {
+    @apply bg-black text-white
+  }
+
+}
